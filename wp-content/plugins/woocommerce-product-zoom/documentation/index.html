@@ -1,0 +1,268 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]--><head>
+	<meta charset="utf-8">
+	
+	<title>WooCommerce Product Zoom - A pretty smooth asynchronous zoom for WooCommerce</title>
+	
+	<meta name="description" content="Helps to zoom a WooCommerce products images in a pretty nice way.">
+	<meta name="author" content="Ildar Akhmetov & Ruslan Askarov">
+	<meta name="copyright" content="Ildar Akhmetov & Ruslan Askarov">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-12-30T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='easeInOutCirc';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-woocommerce-product-zoom">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#about_the_product_zoom" title="About the Product Zoom" class="">About the Product Zoom</a></li>
+			<li><a href="#features" title="Features" class="">Features</a></li>
+			<li><a href="#quick_start_guide" title="Quick Start Guide" class="">Quick Start Guide</a></li>
+			<li><a href="#general_customization" title="General Customization" class="">General Customization</a></li>
+			<li><a href="#advanced_customization" title="Advanced Customization" class="">Advanced Customization</a></li>
+			<li><a href="#mobile_version" title="Mobile Version" class="">Mobile Version</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Ildar Akhmetov & Ruslan Askarov 2017<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>WooCommerce Product Zoom</h1>
+	<h2>A pretty smooth asynchronous zoom for WooCommerce</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>version: 1.0.7</li>
+	<li>created: 12/30/2016</li>
+	<li>latest update: 02/28/2017</li>
+	<li>by: Ildar Akhmetov & Ruslan Askarov</li>
+	<li><a href="http://the-croc.ru/product/woocommerce-product-zoom/">Live Demo Page</a></li>
+	<li>email: <a href="mailto:ildar.axmetov@gmail.com">ildar.axmetov@gmail.com</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="about_the_product_zoom">
+	<div class="page-header"><h3>About the Product Zoom</h3><hr class="notop"></div>
+<p>
+	The WooCommerce Product Zoom provides the out-of-box plugin that lets your customers see your products in detail.&nbsp;</p>
+<p>
+	You don't need to be familiar with programming.</p>
+<p>
+	Let's introduce this!</p>
+</section>
+<section id="features">
+	<div class="page-header"><h3>Features</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Asynchronous - you will not see an emptyness while a zoomed image is loading</li>
+	<li>
+		Mobile Version - a zoomed image fits to device screen and you can move across it</li>
+	<li>
+		Customizible</li>
+	<li>
+		Different zoom window positions</li>
+	<li>
+		Tested with many themes including non-woocommerce themes</li>
+</ul>
+</section>
+<section id="quick_start_guide">
+	<div class="page-header"><h3>Quick Start Guide</h3><hr class="notop"></div>
+<p>
+	First, download and put our plugin to the plugins folder of your site.</p>
+<img alt="Download and put to plugins" src="assets/images/image_4.png" style="width: 732px; height: 243px;">
+
+<p>
+	After you've done this the plugin will appear in the Admin Panel -&gt; Plugins. Just activate it.</p>
+<img alt="Activate the WooCommerce Product Zoom" src="assets/images/image_2.png" style="width: 739px; height: 68px;">
+	<p>And now you can find it in the WooCommerce->Settings->WooCommerce Product Zoom.</p>
+<img alt="WooCommerce Product Zoom tab" src="assets/images/image_10.png" style="width: 739px; height: 306px;">
+
+
+
+<p>
+	Congratulations! Now you have the beatiful zoom gallery on your website!&nbsp;</p>
+<p>
+	You can leave it as it is or read below how to customize it.</p>
+</section>
+<section id="general_customization">
+	<div class="page-header"><h3>General Customization</h3><hr class="notop"></div>
+<p>
+	The general parameters you need to know are <em>Zoom Factor, Zoom Window Width and Height and Zoom Window Position</em>. Let's discuss each of them.</p>
+<h4>
+	ZOOM FACTOR</h4>
+<img alt="Zoom Factor" src="assets/images/image_8.png" style="width: 531px; height: 299px">
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+	It means how many times your image has to be zoomed. This parameter provides values from 1 to 10. For example, here is 2X zoom&nbsp;at the picture.&nbsp;</p>
+<h4>ZOOM WINDOW WIDTH AND HEIGHT</h4>
+<p>
+	The Zoom Window is the appearing area where your zoomed image is. It has its own size, by default it is equals to an original image. But you can easily set this parameter whatever you want.&nbsp;</p>
+<p>
+	It is set as consisting of original images. It is complicated to understand at first sight. See the image below.</p>
+<img alt="Zoom Wondow Width And Height" src="assets/images/image_9.png" style="width: 571px; height: 781px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+	As you can see a Zoom Window size is how many original image sizes in it. It is made so because in this case it is not cool to use absolute units like a pixels. So, it's a good decision to use an original image size as a base.</p>
+<h4>ZOOM WINDOW POSITION</h4>
+<p>
+	The Zoom Window position is based on position of original image: on the right to it, on the left to it, on the top to it, on the bottom to it and overlay the original image.</p>
+<img alt="Positions" src="assets/images/image_6.png" style="width: 378px; height: 371px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+	Here are 4 Zoom Window positions relatively to original image. And the 5th position simply overlay the original image.</p>
+</section>
+<section id="advanced_customization">
+	<div class="page-header"><h3>Advanced Customization</h3><hr class="notop"></div>
+<p>
+	There are few parameters that will be nice out-of-box: <strong>Zoom Window Border parameters, Zoom Lens Border parameters and Number of Thumbnails per Row</strong>.</p>
+<p>
+	It is very simple - you can customize a color, thickness and type of line of the Zoom Window Border and Lens Border.</p>
+<img alt="Borders" src="assets/images/image_3.png" style="width: 681px; height: 301px;">
+
+
+
+<p>
+	So, the <strong>Number of Thumbnails per Row</strong> is an easy parameter, just look at the picture below. You see, here are totally 10 images, but each row contains no more than 6 images, because of this parameter set to 6.</p>
+<img alt="Thumbnail Rows" src="assets/images/image_7.png" style="width: 507px; height: 302px;">
+
+<p>
+	And the <strong>Plugin Templates Prioprity</strong>. Basically, the WooCommerce Product Zoom overrides standard WooCommerce single product image and single product thumbnails templates. This parameter defines do the overrided WooCommerce Product Zoom files have a heigher priority than those one overrided by your theme. By default it is true.</p>
+<img alt="Templates Priority" src="assets/images/image_11.png" style="width: 714px; height: 44px;">
+
+
+
+
+
+
+
+</section>
+<section id="mobile_version">
+	<div class="page-header"><h3>Mobile Version</h3><hr class="notop"></div>
+<p>
+	We made a handsome mobile version! You know that a standard gallery not so pretty.&nbsp;</p>
+<p>
+	And we provide THE REAL ZOOM. You can move across the zoomed image by tapping it. It is very simple and pretty!</p>
+<img alt="" src="assets/images/image_5.png">
+</section>
+
+	</div>
+
+</body>
+</html>

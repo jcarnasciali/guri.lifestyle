@@ -1,0 +1,128 @@
+
+/**
+*   This css is automatically generated for mobile.
+*/
+
+.woocommerce span.onsale {
+    z-index: 2;
+}
+
+p#zoom-movement-tip-fixed:before {
+    content: '!';
+    font-size: 40px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    line-height: 40px;
+}
+
+#zoom-window {
+    width:0px;
+    height:0px;
+    position:fixed;
+    z-index:9999998;
+    border:1px solid #e8e8e8;
+    opacity: 0;                
+    transition-property: background-position;
+    transition-timing-function: ease-in-out;
+    transition-duration: 120ms;
+}
+
+#zoom-tip {
+    z-index:99999999;
+    position:absolute;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.498039);
+    color:#fff;
+    border-radius:3px;
+    padding:0 5px;
+    white-space: nowrap;
+}
+
+#zoom-tip-fixed {
+    z-index:99999999;
+    position:fixed;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.498039);
+    color:#fff;
+    border-radius:3px;;
+    padding:10px 5px;
+    white-space: nowrap;
+    margin: 0;
+    display: none;
+}
+
+#zoom-movement-tip-fixed {
+    z-index:99999999;
+    position:fixed;
+    font-size: 12px;
+    background: rgba(103, 0, 115, 0.498039);
+    color:#fff;
+    border-radius:3px;
+    padding:10px 5px 10px 20px;
+    white-space: nowrap;
+    margin: 0;
+    display: none;
+}
+
+#wcpz-thumbs {
+    text-align: center;
+    padding: 0 2px;
+}
+
+#wcpz-thumbs section {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#wcpz-thumbs div {
+    display: inline-block
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    max-height: 0px;
+    max-width: 0px;
+    vertical-align: middle;
+    float: left;
+}
+
+#wcpz-thumbs div img {
+    display: inline-block;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 120ms;
+    max-height: calc(100% - 3px);
+    max-width: calc(100% - 3px);
+    vertical-align: middle;
+}
+
+#wcpz-thumbs div span {            
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+}
+
+#wcpz-thumbs div.wcpz-thumb-active img {
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.44);
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.44);
+}
+
+#wcpz-thumbs div:hover {
+    filter: contrast(85%);
+    -o-filter: contrast(85%);
+    -moz-filter: contrast(85%);
+    -webkit-filter: contrast(85%);
+}
+
+#wcpz-main {
+    margin-bottom: 10px;
+}
+
+#wcpz-main > img {
+    margin: 0 auto;
+    cursor: none;
+    position: relative;
+}
+        

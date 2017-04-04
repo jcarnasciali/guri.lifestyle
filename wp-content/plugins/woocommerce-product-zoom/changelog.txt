@@ -1,0 +1,50 @@
+== 1.0.7 ==
+	*Added*
+	Enable/disable zoom on mobiles and tablets.
+	*Fixed*
+	Including side-scripts with a correct protocol http/https.
+	Hide thumbnails until the page is not loaded.
+	Zoom window position on a pages with a sticky menu.
+	*Changed*
+	Name of mobile detection class.
+
+== 1.0.6 ==
+	*Added*
+	Check if Mobile Detect script is already included.
+	*Fixed*
+	Zoom tips on mobile version.
+
+== 1.0.5 ==
+	*Fixed*
+	Fix the system of product variations changing.
+
+== 1.0.4 ==
+	*Added*
+	Added support for variable colors
+
+== 1.0.3 ==
+	*Added*
+	Option 'Plugin templates priority' to protect the plugin template files from overriding by theme.
+	Help link in admin panel.
+	*Fixed*
+	Fix the vertical align - vertical align is controlled by 10-second tick
+
+== 1.0.2 ==
+	*Changed*
+	Request the large-size images instead of medium-size
+	The main image height adjusting considering the parent's width
+
+== 1.0.1 ==
+	*Added* 
+	Added index.php for better security.
+	*Changed* 
+	Changes according to WooCommerce and WordPress recommendations.
+	Settings page moved to WooCommerce->Settings->WooCommerce Product Zoom.
+	Better admin interface.
+	*Fixed* 
+	Fix the 'on sale' sticker - now it is above the main product image.
+	Fix if a product has only main image, the thumbs will be displayed anyway.
+	Fix main image to not overlay any website elements
+
+== 1.0.0 ==
+	Initial Release

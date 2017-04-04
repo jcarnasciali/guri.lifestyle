@@ -1,0 +1,38 @@
+/**
+*   Admin styles of WC Product Zoom plugin. 
+*/
+
+input[type="color"] {
+    width: 60px;
+    cursor: pointer;
+}
+
+div.wcpz-radio-button-group-row {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.wcpz-inner-row {
+    padding: 10px 0;
+}
+
+.wcpz-inner-row > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wcpz-inner-row > div:first-child {
+    width:auto;
+    margin-right: 35px;
+}
+
+.wcpz-inner-row > div:nth-child(2) {
+    width:75%;
+}
+
+a#wcpz-help-link {
+    float: right;
+    margin-top: -20px;
+    font-size: 15px;
+}
